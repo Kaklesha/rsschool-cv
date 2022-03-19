@@ -6,6 +6,7 @@
 #### About Me
 __I love to listen classic music__
 __and play to guitar__
+__Watching films and serius
 ____
 ####Education
 __I finished colledge in the Saratov city__
