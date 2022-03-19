@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kaklesha.github.io/rsschool-cv/cv
