@@ -1,8 +1,12 @@
 #KIRILL KORNILOV
 
-### Front-end developer
+### Student Software Engineer
 ---
+ *Contact information:*
 
+ *Phone:* 89878034723
+ *E-mail:* k-korni1ov@yandex.ru
+|*Discord:* kaklesha#4387
 #### About Me
 
 __I love to listen classic music__
