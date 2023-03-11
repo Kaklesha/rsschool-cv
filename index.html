@@ -1,17 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>
-        Hello, world!!!
+        KIRILL KORNILOV
     </h1>
-    <p>
-        Created by Kaklesha beginner dev, continue soon..
+    <p> Student Software Engineer</p>
+
+
+    <h2>Contact information:</h2>
+ <p>
+    *Phone:* null  <br>
+
+    *E-mail:* k-korni1ov@yandex.ru  <br>
+
+    *Discord:* kaklesha#4387  <br>
+</p>
+
+    <h2>About Me </h2>
+    <p >
+    When I was learn in college It begin to think about that am i want to do? ,<br>
+    But i don't find answer to this day <br>
+    Finally I choose to close competencies of related areas
     </p>
+  
+
+    <h2> Skills and Proficiency:</h2>
+<p>
+    SQL <br>
+    C# <br>
+    CSS, HTML5 <br>
+    Git <br>
+</p>
+    
+
+   <h2>Education</h2>
+<p>
+    I finished college in the Saratov city <br>
+    and joined at university 3 years ago. <br>
+    Now I study at Yuri Gagarin State Technical University of Saratov. <br>
+</p>
+
+<h2>Code example:</h2> 
+<p>
+    An isogram is a word that has no repeating letters, <br>
+    consecutive or non-consecutive. Implement a function that<br>
+    determines whether a string that contains only letters is an isogram.<br>
+     Assume the empty string is an isogram. Ignore<br>
+    letter case.<br>
+
+    *Solve:*
+</p>
+
+<blockquote><pre> <code>
+    function isIsogram(str1) {
+
+    let str=str1.toLowerCase();
+    if(str=="") return true;
+    let isTrue=false;
+    let i=0;
+    for (let char of str) {
+    i=0;
+    k=0;
+    isTrue=true;
+
+    while(i<str.length){ if( char==str[i]){ console.log(char+"="+str[i]); 
+                        k++
+                    };           
+                    i++;
+                }
+               if(k>=2){
+                isTrue=false;       
+                   break;
+               }
+              }        
+               return isTrue;
+        } 
+     
+         </code> </pre> 
+    </blockquote>
+       <h2>Languages</h2>
+        <p>
+        English - elementary <br>
+        Russian - Native <br>
+        </p>
+
 </body>
 </html>
