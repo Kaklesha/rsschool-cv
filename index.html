@@ -50,39 +50,29 @@
 
 <h2>Code example:</h2> 
 <p>
-    An isogram is a word that has no repeating letters, <br>
-    consecutive or non-consecutive. Implement a function that<br>
-    determines whether a string that contains only letters is an isogram.<br>
-     Assume the empty string is an isogram. Ignore<br>
-    letter case.<br>
+    Given a string made of digits [0-9],
+     return a string where each digit is repeated a
+      number of times equals to its value.<br>
 
     *Solve:*
 </p>
 
 <blockquote><pre> <code>
-    function isIsogram(str1) {
+    function explode(s) {
+  
 
-    let str=str1.toLowerCase();
-    if(str=="") return true;
-    let isTrue=false;
-    let i=0;
-    for (let char of str) {
-    i=0;
-    k=0;
-    isTrue=true;
-
-    while(i<str.length){ if( char==str[i]){ console.log(char+"="+str[i]); 
-                        k++
-                    };           
-                    i++;
-                }
-               if(k>=2){
-                isTrue=false;       
-                   break;
-               }
-              }        
-               return isTrue;
-        } 
+    
+        let strStack="";
+        
+      for (let char of s) {
+        
+        strStack=strStack+char.repeat(Number(char));
+        
+    
+          }
+      
+      return strStack;
+    }
      
          </code> </pre> 
     </blockquote>
