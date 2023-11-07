@@ -1,1 +1,1 @@
-https://kaklesha.github.io/rsschool-cv/
+https://kaklesha.github.io/rsschool-cv/ 
