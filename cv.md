@@ -1,14 +1,14 @@
-#KIRILL KORNILOV
+
 
 ### Student Software Engineer
 ---
  __Contact information:__
 
- *Phone:* 89878034723
+ *Phone:* 8***-***-**-**
 
- *E-mail:* k-korni1ov@yandex.ru
+ *E-mail:* k-kor*********
 
-*Discord:* kaklesha#4387
+*Discord:* ***********
 
 ---
 
